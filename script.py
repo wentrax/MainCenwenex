@@ -35,7 +35,7 @@ Bot will automatically search for your file and give links to that!
 <b> @Lx0980AI</b>
 """
   
-  ABOUT_TXT """
+  ABOUT_TXT = """
 <b>➥ Name :</b> Cenwenex
 
 <b>➥ Developer :</b> @Lx0980AI
