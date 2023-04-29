@@ -62,7 +62,7 @@ async def button(bot, cmd: CallbackQuery):
                    [
                        [                                             
                         InlineKeyboardButton("⬇️ Back", callback_data="helpbutton_data"),
-                        InlineKeyboardButton("🔐 Close", callback_data="close_data")                                               InlineKeyboardButton("Auto Filter", url="https://t.me/Lx0980AI")
+                        InlineKeyboardButton("🔐 Close", callback_data="close_data") 
                        ] 
                    ] 
                ) 
