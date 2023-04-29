@@ -11,7 +11,7 @@ DOCUMENTS = enums.MessagesFilter.DOCUMENT
 VIDEOS = enums.MessagesFilter.VIDEO 
 
 @Client.on_message(filters.private & filters.command(["clone"]))
-async def run(bot, message):
+async def clone(bot, message):
     if str(message.from_user.id) not in InfoMTN.OWNER_ID:
         return
     buttons = [[
