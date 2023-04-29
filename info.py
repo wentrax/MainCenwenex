@@ -3,15 +3,12 @@ import os
 import logging
 
 class InfoMTN:    
-    API_ID = 28298577
-    API_HASH = "143efc9236a955d630ede2642578b251"
-    BOT_TOKEN = "5068899226:AAGrSpHXOetSe-q_YSL4Sa6ghs2hhdn2Ls4"
-    BOT_SESSION = "bot" 
-    CAPTION = "@HQFilms4U"
-
-    FROM_CHANNEL = "@Databaseforfiles"
-    TO_CHANNEL = -1001563098453
-
+    API_ID = 16448144
+    API_HASH = "1073665850700150caf0e0cbb68216a2"
+    BOT_TOKEN = "6032335088:AAHqrUvqR-0rulRNNiesZ-B02iwcSHYSTy8"
+    BOT_SESSION = "bot"     
+    FROM_CHANNEL = "@Databaseforfiles" # channel username 
+    TO_CHANNEL = -1001563098453 # your channel id
     OWNER_ID = "1903280447"
     LIMIT = 2
     SKIP_NO = 0
