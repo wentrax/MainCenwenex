@@ -1,4 +1,4 @@
-class CenwenexTXT(object):  
+class Script(object):  
   START_TXT = """
 Hello there, I am <b>Cenwenex</b>
 """
