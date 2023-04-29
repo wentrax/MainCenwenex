@@ -42,11 +42,11 @@ async def button(bot, cmd: CallbackQuery):
                  [
                      [
                       InlineKeyboardButton("Auto Filter", callback_data="autofilter_data"),
-                      InlineKeyboardButton("Media Clone", callback_data="mediaclone_data"),
+                      InlineKeyboardButton("Media Clone", callback_data="mediaclone_data")
                      ],[
                       InlineKeyboardButton("Developer", url="https://t.me/Lx0980AI")
                      ],[
-                      InlineKeyboardButton("⬇️ Back", callback_data="start_data")
+                      InlineKeyboardButton("⬇️ Back", callback_data="start_data"),
                       InlineKeyboardButton("🔐 Close", callback_data="close_data")
                      ]
  
