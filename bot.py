@@ -32,3 +32,7 @@ class Bot(Client):
     async def stop(self, *args):
         await super().stop()
         self.LOGGER(__name__).info("Bot stopped. Bye.")
+
+print("Bot started! 🔥")
+app = Bot()
+app.run()
