@@ -1,12 +1,11 @@
 class Script(object):  
   START_TXT = """
-Hello there, I am <b>Cenwenex</b>
-"""
-  HELP_TXT = """
-Help: <b>Buttons</b> 
+<b>Hello {}!!</b>
+
+I'm <b>Cenwenex</b>
 """
 
-AUTOFILTER_TXT = """
+  AUTOFILTER_TXT = """
 <b>Bot simply search for the files from provided channel according to given query and gives link to those files as buttons!</b>
 
 <b>How to use the bot??</b>
@@ -18,9 +17,11 @@ AUTOFILTER_TXT = """
 No need add each filter again!
 Bot will automatically search for your file and give links to that!
 </i>
+
+<b> @Lx0980AI</b>
 """
 
-MEDIACLONE_TXT = """
+  MEDIACLONE_TXT = """
 <b>This Bot forward all files from One Public channel to Your Personal channel</b>
 
 <b>Follow These Steps!!</b>
@@ -34,3 +35,12 @@ MEDIACLONE_TXT = """
 <b> @Lx0980AI</b>
 """
   
+  ABOUT_TXT """
+<b>➥ Name :</b> Cenwenex
+
+<b>➥ Developer :</b> @Lx0980AI
+
+<b>➥ Language :</b> <code>Python 3</code>
+
+<b>➥ Library :</b> <code>Pyrogram</code>
+"""
