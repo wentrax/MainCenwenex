@@ -4,7 +4,7 @@ import logging
 class InfoMTN:    
     API_ID = 175718
     API_HASH = "fd96389b0d258e9adfbd52219582064a"
-    BOT_TOKEN = "5383725020:AAF0fIe_lUFyGZR8hf9d3gkWEoWx2iCF490"
+    BOT_TOKEN = "5672381870:AAHD0oGNxsBT_DAoa64calR7IjVQcl-t2u4"
     BOT_SESSION = "bot"     
     FROM_CHANNEL = -1001667023505 # channel username 
     TO_CHANNEL = -1001820965189 # your channel id
