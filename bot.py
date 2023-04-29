@@ -1,6 +1,6 @@
 
 from pyrogram import Client, enums, __version__
-from info import Info, LOGGER
+from info import InfoMTN, LOGGER
 from CLIENT import User
 
 class Bot(Client):
@@ -10,13 +10,13 @@ class Bot(Client):
     def __init__(self):
         super().__init__(
             "filebot",
-            api_hash=Info.API_HASH,
-            api_id=Info.API_ID,
+            api_hash=InfoMTN.API_HASH,
+            api_id=InfoMTN.API_ID,
             plugins={
                 "root": "plugins"
             },
             workers=200,
-            bot_token=Config.BOT_TOKEN            
+            bot_token=InfoMTN.BOT_TOKEN            
         )
         self.LOGGER = LOGGER
 
