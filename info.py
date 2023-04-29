@@ -2,7 +2,7 @@ import os
 import logging
 
 class InfoMTN:    
-    API_ID = 175718
+    API_ID = 17571849
     API_HASH = "fd96389b0d258e9adfbd52219582064a"
     BOT_TOKEN = "5672381870:AAHD0oGNxsBT_DAoa64calR7IjVQcl-t2u4"
     BOT_SESSION = "bot"     
