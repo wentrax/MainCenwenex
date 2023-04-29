@@ -1,7 +1,7 @@
 
 from pyrogram import Client, enums, __version__
 from info import InfoMTN, LOGGER
-from CLIENT import User
+from user import User
 
 class Bot(Client):
   #  USER: User = None
