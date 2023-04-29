@@ -1,3 +1,4 @@
+# @alex0980
 from script import Script 
 import logging
 logging.basicConfig(level=logging.DEBUG,
