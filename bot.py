@@ -16,10 +16,10 @@ class Bot(Client):
                 "root": "plugins"
             },
             workers=200,
-            bot_token=InfoMTN.BOT_TOKEN            
+            bot_token=InfoMTN.BOT_TOKEN,
+            sleep_threshold=10
         )
         self.LOGGER = LOGGER
-
     async def start(self):
         await super().start()
         bot_details = await self.get_me()
